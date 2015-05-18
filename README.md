@@ -12,7 +12,7 @@
 ### Instructions
 I'm going to assume knowledge of basic circuits. I worked through 6 or 7 of the exercises in an Arduino starter kit before attempting to build this. 
 
-Wire up the servo motor connecting the control to one of the GPIO pins of the core (I used D0). My motor reccomended using a 5V power source, but the Spark Core only provides 3.3V and I didn't have a 3.3V to 5V converter handy, so I used an Arduino Uno as a 5V power source in my circuit. Depending on what motor is used, you might be able to power it directly from the 3.3V porvided by the Core. Again, depending on your motor a capacitor might be required to smooth out the voltage across the heads of the servo motor.
+Wire up the servo motor connecting the control to one of the GPIO pins of the core (I used D0). My motor recommended using a 5V power source, but the Spark Core only provides 3.3V and I didn't have a 3.3V to 5V converter handy, so I used an Arduino Uno as a 5V power source in my circuit. Depending on what motor is used, you might be able to power it directly from the 3.3V provided by the Core. Again, depending on your motor a capacitor might be required to smooth out the voltage across the heads of the servo motor.
 
 ![alt text](https://github.com/KarlParkinson/wifiLock/blob/master/circuit-overhead.jpg)
 
