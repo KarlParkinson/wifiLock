@@ -14,9 +14,15 @@ I'm going to assume knowledge of basic circuits. I worked through 6 or 7 of the 
 
 Wire up the servo motor connecting the control to one of the GPIO pins of the core (I used D0). My motor reccomended using a 5V power source, but the Spark Core only provides 3.3V and I didn't have a 3.3V to 5V converter handy, so I used an Arduino Uno as a 5V power source in my circuit. Depending on what motor is used, you might be able to power it directly from the 3.3V porvided by the Core. Again, depending on your motor a capacitor might be required to smooth out the voltage across the heads of the servo motor.
 
+![alt text](https://github.com/KarlParkinson/wifiLock/blob/master/circuit-overhead.jpg)
+
 Tape the arms of the servo motor to the deadbolt. Make sure that the motor is oriented correctly so that it will turn the deadbolt when told to rotate.
 
+![alt text](https://github.com/KarlParkinson/wifiLock/blob/master/tape-arms.jpg)
+
 Almost done. Finally, we need to secure the servo motor to the lock itself. If this is not done, the motor will rotate instead of the arms. I had a screwdriver and an old allen key lying around and used these as well as some duct tape to hold the motor in place.
+
+![alt text](https://github.com/KarlParkinson/wifiLock/blob/master/servo-secure.jpg)
 
 Flash the servoControl.cpp firmware code to your Core.
 
