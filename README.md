@@ -58,4 +58,6 @@ Test it out using curl (or really anything that can make an http request). I fou
 curl https://api.particle.io/v1/devices/{device_id}/servo -d access_token={access_token} -d params={angle}
 ```
 
+<a href="https://www.youtube.com/watch?feature=player_embedded&v=_kh5756qUSU" target="_blank"><img src="http://img.youtube.com/vi/_kh5756qUSU/0.jpg" border="10" /></a>
+
 That's it! For fun, extend this with a web or mobile frontend.
