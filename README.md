@@ -18,7 +18,7 @@ Wire up the servo motor connecting the control to one of the GPIO pins of the co
 
 Tape the arms of the servo motor to the deadbolt. Make sure that the motor is oriented correctly so that it will turn the deadbolt when told to rotate.
 
-![alt text](https://github.com/KarlParkinson/wifiLock/blob/master/tape-arms.jpg)
+![alt text](https://raw.githubusercontent.com/KarlParkinson/wifiLock/master/arms-tapped.jpg)
 
 Almost done. Finally, we need to secure the servo motor to the lock itself. If this is not done, the motor will rotate instead of the arms. I had a screwdriver and an old allen key lying around and used these as well as some duct tape to hold the motor in place.
 
